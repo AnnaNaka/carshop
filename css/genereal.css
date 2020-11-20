@@ -1,0 +1,114 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    background-color: green;
+}
+
+#website_header {
+    color: brown;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: normal;
+    text-align: center;
+    text-shadow: 1px 2px 2px yellow;
+    width: 50px;
+    margin: 0 auto;
+     /* background-color: thistle; */
+    /* background-color: rgb(122, 255,123); */
+    background-color: #edec95;
+    /* text-indent: 20px; */
+    /* letter-spacing: 3px; */
+    /* word-spacing: 5px; */
+    overflow: visible;
+}
+
+/* Used in main navigation bar. */
+.navigation {
+    background-color: #edec95;
+    text-decoration: none;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+.navigation:hover {
+    background-color: beige
+}
+
+#firstname:focus {
+    background-color: yellow;
+}
+
+/* This is still tentative */
+/* ul li {
+    background-color: blue;
+} */
+
+/* ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    list-style: url("../images/blue_dot.jpeg") circle inside;
+}
+
+ol li {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+} */
+
+#about_us {
+    /* background-image: url("../images/skyscraper.jpeg"); */
+    width: px100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    /* background-repeat: repeat; */
+    /* background-position: 100px 200px; */
+    /* background-attachment: fixed; */
+    /* background-size: auto; */
+    /* background:#edec95 url("../images/skyscraper_building.jpg") no-repeat 10px 10px; */
+    background: url("../images/skyscraper_building.jpg") no-repeat;
+}
+
+table {
+    /* empty-cells: show; */
+    border-collapse: collapse;
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: azure;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.office_picture {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    margin: 0 auto;
+    border: 10px black double;
+    margin-top: 20px;
+    background-size: 300px 300px;
+    display: inline-block;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+
+#office1 {
+    background-image: url("../images/office1.jpeg");
+}
+#office2 {
+    background-image: url("../images/office2.jpeg");
+    /* float: right; */
+}
+#office3 {
+    background-image: url("../images/office3.jpeg");
+    /* clear: right; */
+}
+
+
